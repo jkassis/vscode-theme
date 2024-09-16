@@ -1,0 +1,29 @@
+Copyright (c) 2017-2024 ShineGuy
+
+Permission is hereby granted, free of charge, to any person obtaining a copy of
+this software to use it for the purpose of evaluating the software prior to
+purchase.
+
+Extended use of ShineGuy Pro requires a license, which can be purchased on
+https://shineguy.pro. Any person who has purchased a license from ShineGuy is
+granted use of ShineGuy Pro on any number of computers that belongs to that
+person.
+
+ShineGuy Pro may not be sub-licensed, resold, or redistributed.
+
+You may not loan, rent, transfer or grant any rights to ShineGuy Pro contained
+herein, or any compilation, derivative or collective work containing ShineGuy
+Pro to any other person or organization without the prior written consent of
+ShineGuy.
+
+ShineGuy Pro is copyrighted by ShineGuy. No title or intellectual property rights
+in ShineGuy Pro are transferred to you. ShineGuy retains all rights not expressly
+granted by this license.
+
+THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
+IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
+FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
+AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
+LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
+OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
+SOFTWARE.

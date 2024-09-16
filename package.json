@@ -1,0 +1,102 @@
+{
+  "name": "theme-shineguy-pro-vscode",
+  "displayName": "Shineguy Pro",
+  "description": "Professional theme and matching icons, from the ShineGuy.",
+  "publisher": "shineguy",
+  "version": "1.1.1",
+  "engines": {
+    "vscode": "^1.14.0"
+  },
+  "categories": [
+    "Themes"
+  ],
+  "capabilities": {
+    "untrustedWorkspaces": {
+      "supported": true
+    }
+  },
+  "contributes": {
+    "commands": [
+      {
+        "command": "shineguy.enter_license",
+        "title": "ShineGuy Pro: enter license"
+      },
+      {
+        "command": "ShineGuy_pro.select_theme",
+        "title": "ShineGuy Pro: select theme"
+      },
+      {
+        "command": "shineguy_pro.activate_icons",
+        "title": "ShineGuy Pro: activate icons"
+      }
+    ],
+    "themes": [
+      {
+        "label": "ShineGuy Pro Dark",
+        "uiTheme": "vs-dark",
+        "path": "./themes/ShineGuy Pro Dark.json"
+      }
+    ],
+    "iconThemes": [
+      {
+        "label": "ShineGuy Pro Dark Icons",
+        "id": "ShineGuy Pro Icons",
+        "path": "./icon-themes/ShineGuy Pro Dark icon-theme.json"
+      }
+    ],
+    "configuration": {
+      "type": "object",
+      "title": "ShineGuy Pro Settings",
+      "properties": {
+        "shineguyPro.fileIconsMonochrome": {
+          "type": "boolean",
+          "default": false,
+          "description": "makes the file icons monochrome"
+        }
+      }
+    }
+  },
+  "extensionKind": [
+    "ui",
+    "workspace"
+  ],
+  "homepage": "https://shineguy.pro",
+  "bugs": {
+    "url": "https://github.com/shineguy/shineguy-pro-vscode"
+  },
+  "sponsor": {
+    "url": "https://shineguy.pro/vscode"
+  },
+  "galleryBanner": {
+    "color": "#fdf9f3",
+    "theme": "light"
+  },
+  "icon": "icon.png",
+  "keywords": [
+    "beautiful functionality",
+    "focus",
+    "minimal",
+    "icons",
+    "syntax highlighting"
+  ],
+  "main": "./js/main",
+  "browser": "./js/browser",
+  "license": "SEE LICENSE IN LICENSE",
+  "activationEvents": [
+    "onStartupFinished"
+  ],
+  "qna": false,
+  "__metadata": {
+    "id": "f5d7ffda-c1d6-4070-ba80-803c705a1ee6",
+    "publisherId": "f1aa9960-e034-4838-a0dc-4a6a074cf48e",
+    "publisherDisplayName": "shineguy",
+    "targetPlatform": "undefined",
+    "isApplicationScoped": false,
+    "isPreReleaseVersion": false,
+    "hasPreReleaseVersion": false,
+    "installedTimestamp": 1725814201227,
+    "pinned": false,
+    "preRelease": false,
+    "source": "gallery"
+  }
+}
