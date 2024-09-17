@@ -46,7 +46,7 @@
     "commandCenter.activeForeground": "#bab6c0",
     "commandCenter.background": "#191919",
     "commandCenter.border": "#222222",
-    "commandCenter.debuggingBackground": "#191919",
+    "commandCenter.debuggingBackground": "#19191966",
     "commandCenter.foreground": "#8b888f",
     "debugConsole.errorForeground": "#fc618d",
     "debugConsole.infoForeground": "#5ad4e6",
@@ -119,7 +119,7 @@
     "editor.lineHighlightBackground": "#f7f1ff0c",
     "editor.lineHighlightBorder": "#00000000",
     "editor.linkedEditingBackground": "#363537",
-    "editor.rangeHighlightBackground": "#363537",
+    "editor.rangeHighlightBackground": "#36353766",
     "editor.rangeHighlightBorder": "#363537",
     "editor.selectionBackground": "#bab6c026",
     "editor.selectionHighlightBackground": "#f7f1ff26",
@@ -160,7 +160,7 @@
     "editorHint.foreground": "#948ae3",
     "editorHoverWidget.background": "#363537",
     "editorHoverWidget.border": "#222222",
-    "editorIndentGuide.background": "#363537",
+    "editorIndentGuide.background1": "#363537",
     "editorInfo.background": "#00000000",
     "editorInfo.border": "#222222",
     "editorInfo.foreground": "#5ad4e6",
@@ -213,10 +213,10 @@
     "extensionButton.prominentBackground": "#363537",
     "extensionButton.prominentForeground": "#f7f1ff",
     "extensionButton.prominentHoverBackground": "#525053",
-    "extensionIcon.preReleaseForeground": "#948ae3",
-    "extensionIcon.sponsorForeground": "#5ad4e6",
-    "extensionIcon.starForeground": "#fce566",
-    "extensionIcon.verifiedForeground": "#7bd88f",
+    "extensionIcon.preReleaseForeground": "#948ae366",
+    "extensionIcon.sponsorForeground": "#5ad4e666",
+    "extensionIcon.starForeground": "#fce56666",
+    "extensionIcon.verifiedForeground": "#7bd88f66",
     "focusBorder": "#69676c",
     "foreground": "#f7f1ff",
     "gitDecoration.addedResourceForeground": "#7bd88f",
@@ -325,8 +325,8 @@
     "notificationsErrorIcon.foreground": "#fc618d",
     "notificationsInfoIcon.foreground": "#5ad4e6",
     "notificationsWarningIcon.foreground": "#fd9353",
-    "panel.background": "#363537",
-    "panel.border": "#222222",
+    "panel.background": "#222222",
+    "panel.border": "#363537",
     "panelStickyScroll.background": "#363537",
     "panelStickyScroll.border": "#ff0000",
     "panelStickyScroll.shadow": "#363537",
@@ -482,7 +482,7 @@
     "terminal.ansiRed": "#fc618d",
     "terminal.ansiWhite": "#f7f1ff",
     "terminal.ansiYellow": "#fce566",
-    "terminal.background": "#363537",
+    "terminal.background": "#222222",
     "terminal.foreground": "#f7f1ff",
     "terminal.selectionBackground": "#f7f1ff26",
     "terminalCommandDecoration.defaultBackground": "#f7f1ff",
@@ -1301,6 +1301,14 @@
       }
     },
     {
+      "scope": [
+        "keyword.operator.address",
+      ],
+      "settings": {
+        "foreground": "#ebbbfc"
+      }
+    },
+    {
       "scope": "keyword.other.substitution",
       "settings": {
         "foreground": "#8B888F"
@@ -1646,7 +1654,6 @@
         "meta.paragraph.markdown meta.hard-line-break.markdown"
       ],
       "settings": {
-        "background": "#948AE3"
       }
     },
     {
@@ -1670,49 +1677,42 @@
       "scope": "region.redish",
       "settings": {
         "foreground": "#ce54fb",
-        "background": "#ce54fb59"
       }
     },
     {
       "scope": "region.orangish",
       "settings": {
         "foreground": "#FD9353",
-        "background": "#FD935359"
       }
     },
     {
       "scope": "region.yellowish",
       "settings": {
         "foreground": "#FCE566",
-        "background": "#FCE56659"
       }
     },
     {
       "scope": "region.greenish",
       "settings": {
         "foreground": "#7BD88F",
-        "background": "#7BD88F59"
       }
     },
     {
       "scope": "region.bluish",
       "settings": {
         "foreground": "#5AD4E6",
-        "background": "#5AD4E659"
       }
     },
     {
       "scope": "region.purplish",
       "settings": {
         "foreground": "#948AE3",
-        "background": "#948AE359"
       }
     },
     {
       "scope": "region.pinkish",
       "settings": {
         "foreground": "#ce54fb",
-        "background": "#ce54fb59"
       }
     },
     {
@@ -1813,14 +1813,14 @@
       "scope": "storage.type.extends",
       "settings": {
         "foreground": "#ce54fb",
-        "fontStyle": "normal"
+        "fontStyle": ""
       }
     },
     {
       "scope": "storage.type.function.arrow",
       "settings": {
         "foreground": "#ce54fb",
-        "fontStyle": "normal"
+        "fontStyle": ""
       }
     },
     {
@@ -2007,7 +2007,7 @@
       "scope": "support.type.property-name",
       "settings": {
         "foreground": "#F7F1FF",
-        "fontStyle": "normal"
+        "fontStyle": ""
       }
     },
     {
